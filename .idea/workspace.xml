@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80cbc33f-2c24-4be0-bdef-c52b5c084aec" name="Changes" comment="Redis - Session Management">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/redispro/pub_sub/RedisPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/redispro/pub_sub/RedisSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="80cbc33f-2c24-4be0-bdef-c52b5c084aec" name="Changes" comment="Redis - DistributedLock">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/redispro/geospatialindex/GeoSpatialService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -77,13 +75,40 @@
       <option name="project" value="LOCAL" />
       <updated>1715223373896</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Redis - PubSub">
+      <option name="closed" value="true" />
+      <created>1715223621441</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715223621441</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Redis - Leaderboard and counters">
+      <option name="closed" value="true" />
+      <created>1715223735802</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715223735802</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Redis - DistributedLock">
+      <option name="closed" value="true" />
+      <created>1715223908733</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715223908733</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add redis configuration" />
     <MESSAGE value="Redis- Caching" />
     <MESSAGE value="Redis - Session Management" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis - Session Management" />
+    <MESSAGE value="Redis - PubSub" />
+    <MESSAGE value="Redis - Leaderboard and counters" />
+    <MESSAGE value="Redis - DistributedLock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redis - DistributedLock" />
   </component>
 </project>
